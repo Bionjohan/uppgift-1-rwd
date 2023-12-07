@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Vänstersidebar{
+    border: 3px black solid;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 83px;
+    padding-right: 83px;
+    margin: 10px;
+}
+.Mitten{
+    border: 3px black solid;
+    border-radius: 7px;
+}
+.Botten{
+    border: 3px black solid;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-right: 85px;
+    padding-left: 85px;
+    width: 200px;
+}
+article{
+    border: 3px black solid;
+    border-radius: 7px;
+    margin: 5px;
+}
+h1{
+    border: 3px black solid;
+    border-radius: 7px;
+    padding: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0px;
+}
+/* Tablet layout  om bredden är mellan 641 och 1007 */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+}
+/* Dator layout  om bredden är minst 1008px */
+@media screen and (min-width: 1008px) {
+
+}
